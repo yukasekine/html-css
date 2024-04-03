@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  text-align: left;
+  list-style-type: none;
+  border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+
+}
+
+body {
+  font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+ 
+.block1{
+  background-color: #c30;
+  width: 300px;
+  height: 700px;
+}
+
+.block1-container{
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+
+.item {
+  background-color: white;
+  border: solid black 1px;
+  width: 40px;
+  height: 40px;
+  padding-right: 10px;
+  display: inline-block;
+}
+
+.block2{
+  background-color: blue;
+  width: 300px;
+  height: 700px;
+  position: relative;
+}
+
+.block2-container {
+  position: absolute;
+  right: 0;
+}
+
+.item1 {
+  background-color: white;
+  border: solid black 1px;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+.block3{
+  background-color: green;
+  width: 300px;
+  height: 700px;
+  position: relative;
+}
+
+.block3-container{
+  position: absolute;
+  top: 80%;
+}
+
+.item2 {
+  background-color: white;
+  border: solid black 1px;
+  width: 40px;
+  height: 40px;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
