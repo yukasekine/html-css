@@ -37,4 +37,18 @@ body {
   box-sizing: border-box;
 }
 
-/* 上の部分は気にせずここから書く */
+.container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  margin-top: 5px;
+  margin-bottom: 200px;
+}
+
+.sample {
+  width: 1000x;
+  height: 600px;
+}

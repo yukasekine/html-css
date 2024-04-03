@@ -37,4 +37,79 @@ body {
   box-sizing: border-box;
 }
 
-/* 上の部分は気にせずここから書く */
+.container{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+}
+ 
+.block1{
+  background-color: #c30;
+  width: 300px;
+  height: 700px;
+}
+
+.block1-container{
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+
+.item {
+  background-color: white;
+  border: solid black 1px;
+  width: 40px;
+  height: 40px;
+  padding-right: 10px;
+  display: inline-block;
+}
+
+.block2{
+  background-color: blue;
+  width: 300px;
+  height: 700px;
+  position: relative;
+}
+
+.block2-container {
+  position: absolute;
+  right: 0;
+}
+
+.item1 {
+  background-color: white;
+  border: solid black 1px;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+.block3{
+  background-color: green;
+  width: 300px;
+  height: 700px;
+  position: relative;
+}
+
+.block3-container{
+  position: absolute;
+  top: 80%;
+}
+
+.item2 {
+  background-color: white;
+  border: solid black 1px;
+  width: 40px;
+  height: 40px;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
